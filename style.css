@@ -1,0 +1,47 @@
+/*STYLE GENERAL*/
+body {
+    font-family: 'Rubik', Verdana,sans-serif;
+}
+
+/* :root {
+    --main-color: #00AA7F;
+    --secondary-color: #37C75A;
+    --text-main-color : #2F4858;
+    --accent-color: #A5DD08;
+  } */
+
+:root {
+    --main-color: #7955B3;
+    --secondary-color: #EFC3FF;
+    --text-main-color : #4B4453;
+    --accent-color: #00C9A8;
+  }
+
+p {
+    color: var(--text-main-color)
+}
+
+h1, h2, h3, h4 {
+    margin: 0;
+}
+
+.text-main {
+    color: var(--main-color);
+}
+
+.text-accent {
+    color: var(--accent-color);
+}
+
+.bg-main {
+    background-color: var(--main-color);
+}
+
+.bg-accent {
+    background-color: var(--accent-color);
+}
+
+.bd-main {
+    border-bottom: 2px solid var(--main-color);
+  }
+  
