@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x"
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.3/css/all.css"
+      integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,600;1,300&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdn.jsdelivr.net/gh/kenwheeler/slick@1.8.1/slick/slick-theme.css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"
+    />
+
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <title>Registrate en Pronto.es</title>
+  </head>
+  <body class="text-main">
+    <!--NAV-->
+    <nav class="navbar navbar-expand-lg navbar-light bg-transpare">
+        <div class="container-fluid">
+          <a class="navbar-brand d-flex align-items-center" href="./index.html">
+            <svg
+            width="100"
+            height="100"
+            viewBox="0 0 177 100"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M88.5 38.75C88.5 44.9632 83.4632 50 77.25 50H66V38.75C66 32.5368 71.0368 27.5 77.25 27.5C83.4632 27.5 88.5 32.5368 88.5 38.75Z"
+              fill="#A891C5"
+            />
+            <path
+              d="M88.5 61.25C88.5 55.0368 93.5368 50 99.75 50H111V61.25C111 67.4632 105.963 72.5 99.75 72.5C93.5368 72.5 88.5 67.4632 88.5 61.25Z"
+              fill="#00C9A8"
+            />
+            <path
+              d="M66 61.25C66 67.4632 71.0368 72.5 77.25 72.5H88.5V61.25C88.5 55.0368 83.4632 50 77.25 50C71.0368 50 66 55.0368 66 61.25Z"
+              fill="#FBEAFF"
+            />
+            <path
+              d="M111 38.75C111 32.5368 105.963 27.5 99.75 27.5H88.5V38.75C88.5 44.9632 93.5368 50 99.75 50C105.963 50 111 44.9632 111 38.75Z"
+              fill="#7955B3"
+            />
+          </svg>
+          <h3>Pronto.es</h3>
+          </a>
+          
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" href="#">¿Cómo funciona?</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Envíos</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  id="navbarDropdown"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Explora
+                </a>
+                <ul class="dropdown-menu dropdown-menu-right animate slideIn" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="#">Ropa</a></li>
+                  <li><a class="dropdown-item" href="#">Accesorios</a></li>
+                  <li><a class="dropdown-item" href="#">Calzado</a></li>
+                  <li><a class="dropdown-item" href="#">Tecnología</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Ayuda</a>
+              </li>
+            </ul>
+            <ul class="navbar-nav">
+              <li>
+                <a class="nav-link btn-register" href="#">Registro</a>
+              </li>
+              <button class="btn me-md-2  text-white bg-accent" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                Iniciar Sesión
+              </button>
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <!--DETALLES DE PRODUCTO-->
+
+      <div class="container">
+        <div class="row">
+            <div class="col-xs-12 col-sm-6 col-md-6 col-lg-3" id="cards_landscape_wrap-2">
+              <a href="./detalles.html">
+                  <div class="card-flyer">
+                      <div class="text-box">
+                          <div class="image-box">
+                              <img src="./media/tabla de surf.jpg" alt="" />
+                          </div>
+                          <div class="text-container">
+                              <h6>tabla de surf</h6>
+                              <strong>300 euros</strong>
+                              <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+                          </div>
+                      </div>
+                  </div>
+              </a>
+          </div>
+
+          </div>
+            
+          </div>
+
+
+        </div>
+      </div>
+
+
+
+
+
+
+
+         <!-- FOOTER -->
+    <footer class="text-center text-white bg-main">
+      <div class="container p-4">
+        <!-- Section: Social media -->
+        <section class="mb-4">
+          <!-- Facebook -->
+          <a
+            class="btn btn-outline-light btn-floating m-1"
+            href="#!"
+            role="button"
+            ><i class="fab fa-facebook-f"></i
+          ></a>
+
+          <!-- Twitter -->
+          <a
+            class="btn btn-outline-light btn-floating m-1"
+            href="#!"
+            role="button"
+            ><i class="fab fa-twitter"></i
+          ></a>
+
+          <!-- Google -->
+          <a
+            class="btn btn-outline-light btn-floating m-1"
+            href="#!"
+            role="button"
+            ><i class="fab fa-google"></i
+          ></a>
+
+          <!-- Instagram -->
+          <a
+            class="btn btn-outline-light btn-floating m-1"
+            href="#!"
+            role="button"
+            ><i class="fab fa-instagram"></i
+          ></a>
+
+          <!-- Linkedin -->
+          <a
+            class="btn btn-outline-light btn-floating m-1"
+            href="#!"
+            role="button"
+            ><i class="fab fa-linkedin-in"></i
+          ></a>
+
+          <!-- Github -->
+          <a
+            class="btn btn-outline-light btn-floating m-1"
+            href="#!"
+            role="button"
+            ><i class="fab fa-github"></i
+          ></a>
+        </section>
+        <!-- Section: Social media -->
+
+        <!-- Section: Form -->
+        <section class="">
+          <form action="">
+            <!--Grid row-->
+            <div class="row d-flex justify-content-center">
+              <!--Grid column-->
+              <div class="col-auto">
+                <p class="pt-2">
+                  <strong class="text-white"
+                    >Sucríbete a nuestro Newsletter</strong
+                  >
+                </p>
+              </div>
+              <!--Grid column-->
+
+              <!--Grid column-->
+              <div class="col-md-5 col-12">
+                <!-- Email input -->
+                <div class="form-outline form-white mb-4">
+                  <input
+                    type="email"
+                    id="form5Example2"
+                    class="form-control"
+                    placeholder="hola@ejemplo.com"
+                  />
+                </div>
+              </div>
+              <!--Grid column-->
+
+              <!--Grid column-->
+              <div class="col-auto">
+                <!-- Submit button -->
+                <button type="submit" class="btn btn-outline-light mb-4">
+                  Enviar
+                </button>
+              </div>
+              <!--Grid column-->
+            </div>
+            <!--Grid row-->
+          </form>
+        </section>
+        <!-- Section: Form -->
+
+        <!-- Section: Text -->
+        <section class="mb-4">
+          <p class="text-white">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt
+            distinctio earum repellat quaerat voluptatibus placeat nam, commodi
+            optio pariatur est quia magnam eum harum corrupti dicta, aliquam
+            sequi voluptate quas.
+          </p>
+        </section>
+        <!-- Section: Text -->
+
+        <!-- Section: Links -->
+        <section class="">
+          <!--Grid row-->
+          <div class="row">
+            <!--Grid column-->
+            <div class="col-12">
+              <h5 class="text-uppercase">MÁS INFORMACIÓN</h5>
+
+              <ul class="navbar-nav mx-auto col-12">
+                <li class="nav-item">
+                  <a href="#!" class="text-white">Política de privacidad</a>
+                </li>
+                <li class="nav-item">
+                  <a href="#!" class="text-white">Cookies</a>
+                </li>
+                <li>
+                  <a href="#!" class="text-white">Empleo</a>
+                </li>
+                <li>
+                  <a href="#!" class="text-white">Contacto</a>
+                </li>
+              </ul>
+            </div>
+            <!--Grid column-->
+          </div>
+          <!--Grid row-->
+        </section>
+        <!-- Section: Links -->
+      </div>
+      <!-- Grid container -->
+
+      <!-- Copyright -->
+      <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2)">
+        © 2021 Copyright:
+        <a class="text-white" href="#">Pronto.es</a>
+      </div>
+      <!-- Copyright -->
+    </footer>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous">
+    </script>
+    <script src="./main.js"></script>
+  </body>
+</html>
